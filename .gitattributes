@@ -1,0 +1,36 @@
+* text=auto
+
+# Lua files
+*.lua text eol=lf
+*.lua.orig text eol=lf
+
+# C files
+*.c text eol=lf
+*.h text eol=lf
+*.m text eol=lf
+
+# Documentation
+*.md text eol=lf
+*.txt text eol=lf
+
+# Configuration
+*.json text eol=lf
+*.yml text eol=lf
+*.yaml text eol=lf
+
+# Windows scripts and installer sources
+*.bat text eol=crlf
+*.cmd text eol=crlf
+*.ps1 text eol=crlf
+*.iss text eol=crlf
+
+# Binary files
+*.png binary
+*.jpg binary
+*.jpeg binary
+*.exe binary
+*.dll binary
+*.so binary
+*.dylib binary
+# Rex language 
+*.rex linguist-language=Rex
