@@ -123,7 +123,7 @@ Rex-language/
 ├── tools/
 │   ├── gen_cmm_shim.py               GENERATES rex_cmm_shim.{c,h} + shim table
 │   └── test_cmm_parity.sh            differential C-vs-Cmm test suite
-└── ReadmeCmm.md, log.md              this manual and the dev log
+└── log.md              this manual and the dev log
 ```
 
 ---
@@ -139,7 +139,8 @@ Rex-language/
 | C compiler | `gcc` or `clang` | links the runtime and shim |
 | `python3` | 3.6+ | only needed to **regenerate** the shim |
 | `gmm` | v3.0 | **bundled** at `cmm/gmm`; no separate install |
-
+| `ghc` | any | deps gmm needed |
+* link Dowaload [gmm](https://github.com/DASKR515/C-minus-minus/releases)
 The bundled `cmm/gmm` is a prebuilt standalone driver, so **GHC does not need to
 be installed on your machine**. It was built against host GHC 9.10.3, but that
 toolchain is not required at runtime.
